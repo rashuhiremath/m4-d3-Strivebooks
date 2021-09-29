@@ -1,15 +1,14 @@
 import React from "react";
 import SingleBook from "./SingleBook";
-import { Col, Container, ListGroup, Row } from "react-bootstrap";
- 
+import { Col, Container, Row } from "react-bootstrap";
+
 
 const BookList = ({ books }) => (
   <Container>
     <Row>
-      {books.map((book) => (
-        <Col  xs={3}>
-          
-   <SingleBook  string = {book}/> 
+      {books.map((element) => (
+        <Col>
+          <SingleBook book={element} />
 
         </Col>
       ))}
