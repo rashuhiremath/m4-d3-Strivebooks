@@ -1,5 +1,6 @@
 
 import './App.css';
+import BookList from './Components/BookList';
 import MyBadge from './Components/MyBadge';
 import SingleBook from './Components/SingleBook';
 import WarningSign from './Components/WarningSign';
@@ -12,6 +13,7 @@ function App() {
         <WarningSign text="your books available"/>
         <MyBadge text = "whatever" color ="primary" />
         <SingleBook book={fantasy[0]}  />
+        <BookList  books = {fantasy}/>
         
       </header>
     </div>
