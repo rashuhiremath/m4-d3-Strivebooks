@@ -9,13 +9,13 @@ class SingleBook extends React.Component {
   render() {
     return (
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={fantasy.img}/>
+        <Card.Img variant="top" src={this.props.book.img}/>
         <Card.Body>
-          <Card.Title>{fantasy.title}</Card.Title>
+          <Card.Title>{this.props.book.title}</Card.Title>
           <Card.Text>
-          {fantasy.category}
+          {this.props.book.category}
           </Card.Text>
-          <Button variant="primary">{fantasy.price}</Button>
+          <Button variant="primary">{this.props.book.price}</Button>
         </Card.Body>
       </Card>
     );
