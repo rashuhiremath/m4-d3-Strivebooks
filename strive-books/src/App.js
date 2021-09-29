@@ -1,3 +1,4 @@
+
 import "./App.css";
 import MyBadge from "./Components/MyBadge";
 import SingleBook from "./Components/SingleBook";
@@ -6,6 +7,7 @@ import fantasy from "./Data/fantasy.json";
 import BookList from "./Components/BookList";
 import Navbar from "./Components/MyNavbar";
 import MyNavbar from "./Components/MyNavbar";
+
 
 function App() {
   return (
