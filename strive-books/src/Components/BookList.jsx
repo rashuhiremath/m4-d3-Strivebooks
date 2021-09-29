@@ -8,7 +8,7 @@ class BookList extends React.Component {
       <Container>
         <Row>
           {this.props.books.map((element) => (
-            <Col>
+            <Col xs={4}>
               <SingleBook book={element} />
             </Col>
           ))}
