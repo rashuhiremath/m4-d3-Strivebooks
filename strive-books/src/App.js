@@ -3,7 +3,7 @@ import './App.css';
 import MyBadge from './Components/MyBadge';
 import SingleBook from './Components/SingleBook';
 import WarningSign from './Components/WarningSign';
-import fantasy from "../Data/fantasy.json"
+import fantasy from "./Data/fantasy.json"
 
 function App() {
   return (
